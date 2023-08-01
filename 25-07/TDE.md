@@ -19,9 +19,9 @@ Aplicação da maneira da maneria com esta apresentado, em um ambiente de produ�
 
 
 ## Bugs
-Bug | Passo para realização | Comportamento Esperado | Nivel
+Bug | Passo para realização | Comportamento Esperado | Criticidade
 :---------: | :------: | :-------:| :-------:|
-Conta de Administrador com credenciais fracas | Usuário: admin , senha: 123 | Credenciais de Admin devem ser extremamente seguras| CRITICO
+Conta de Administrador com credenciais fracas | Usuário: admin , senha: 123 | Credenciais de Admin devem ser extremamente seguras| Alta
 Dados do adminstrador estão expostos | No console de desenvolvedor é possivel visualizar a regra de negócio para realização de login | Dados Sensiveis deveriam ser extremamente seguros e criptografados| CRITICO
 Funcionalidade da apresentação da estante e cadastro de livros não estão funcionando| Ao clicar no botão não redireciona para as páginas informadas | Principais funcionalidades da aplicação deveriam funcionar corretamente, com listagem dos livros cadastrados na página referente ao formulario de novo registros | CRITICO
 Página onde está presente o formulário para contado não possui a validação de email, nome completo não devia possuir números e o campo para descrever os motivos poderia possuir um limite de conteudo para não sobrecarregar o banco de dados | URL: https://projeto-voluntario.vercel.app/contato.html adicionar numeros no campo nome, email inválido e texto gigante| Deve ser apresentado erros para cada campo do formulário caso seja cadastrado uma informação inválida | URGENTE
